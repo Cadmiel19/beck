@@ -27,4 +27,3 @@ O arquivo package.json é o coração de qualquer projeto Node.js ou aplicação
 
 **10.** O Node.js é gratuito ou pago?
 Ele é gratuito.
----
