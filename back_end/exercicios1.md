@@ -26,4 +26,5 @@ No Node.js, um módulo é uma unidade funcional, pequena e reutilizável de cód
 O arquivo package.json é o coração de qualquer projeto Node.js ou aplicação JavaScript que utilize npm (Node Package Manager) ou Yarn.
 
 **10.** O Node.js é gratuito ou pago?
+
 Ele é gratuito.
