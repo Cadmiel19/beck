@@ -1,0 +1,12 @@
+// 14. Maior e menor preço
+let maior = 0;
+let menor = Infinity;
+
+for (let i = 1; i <= 8; i++) {
+    let preco = Number(prompt("Digite o preço: "));
+    if (preco > maior) maior = preco;
+    if (preco < menor) menor = preco;
+}
+
+console.log("Maior preço:", maior);
+console.log("Menor preço:", menor);
