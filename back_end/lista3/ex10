@@ -1,0 +1,6 @@
+// 10. Soma regressiva de 500 até 0 pulando de 50
+soma = 0;
+for (let i = 500; i >= 0; i -= 50) {
+    soma += i;
+}
+console.log("Resultado:", soma);
