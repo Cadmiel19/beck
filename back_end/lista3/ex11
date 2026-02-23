@@ -1,0 +1,7 @@
+// 11. Soma de 7 números
+soma = 0;
+for (let i = 1; i <= 7; i++) {
+    let num = Number(prompt("Digite um número: "));
+    soma += num;
+}
+console.log("Somatório:", soma);
