@@ -1,0 +1,16 @@
+// 15. Idades
+let somaIdade = 0, maiorIdade = 0, mais18 = 0, menos5 = 0;
+
+for (let i = 1; i <= 10; i++) {
+    let idade = Number(prompt("Digite a idade: "));
+    somaIdade += idade;
+
+    if (idade > maiorIdade) maiorIdade = idade;
+    if (idade > 18) mais18++;
+    if (idade < 5) menos5++;
+}
+
+console.log("Média:", somaIdade / 10);
+console.log("Maiores de 18:", mais18);
+console.log("Menores de 5:", menos5);
+console.log("Maior idade:", maiorIdade);
