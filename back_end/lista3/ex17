@@ -1,0 +1,18 @@
+// 17. Peso e altura
+let somaAltura = 0, mais90 = 0, menos50e160 = 0, mais190e100 = 0;
+
+for (let i = 1; i <= 7; i++) {
+    let peso = Number(prompt("Peso: "));
+    let altura = Number(prompt("Altura: "));
+
+    somaAltura += altura;
+
+    if (peso > 90) mais90++;
+    if (peso < 50 && altura < 1.60) menos50e160++;
+    if (altura > 1.90 && peso > 100) mais190e100++;
+}
+
+console.log("Média altura:", somaAltura / 7);
+console.log("Mais de 90kg:", mais90);
+console.log("Menos 50kg e <1.60:", menos50e160);
+console.log("Altura >1.90 e peso >100:", mais190e100);
