@@ -1,0 +1,23 @@
+// 16. Idade e sexo
+let homens = 0, mulheres = 0, somaGrupo = 0, somaHomens = 0, mulheres20 = 0;
+
+for (let i = 1; i <= 5; i++) {
+    let idade = Number(prompt("Idade: "));
+    let sexo = prompt("Sexo (M/F): ").toUpperCase();
+
+    somaGrupo += idade;
+
+    if (sexo === "M") {
+        homens++;
+        somaHomens += idade;
+    } else {
+        mulheres++;
+        if (idade > 20) mulheres20++;
+    }
+}
+
+console.log("Homens:", homens);
+console.log("Mulheres:", mulheres);
+console.log("Média grupo:", somaGrupo / 5);
+console.log("Média homens:", homens > 0 ? somaHomens / homens : 0);
+console.log("Mulheres > 20:", mulheres20);
