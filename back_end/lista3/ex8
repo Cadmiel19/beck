@@ -1,0 +1,15 @@
+// 8. Funciona tanto crescente quanto decrescente
+inicio = Number(prompt("Digite o primeiro valor: "));
+fim = Number(prompt("Digite o último valor: "));
+incremento = Number(prompt("Digite o incremento: "));
+
+if (inicio < fim) {
+    for (let i = inicio; i <= fim; i += incremento) {
+        process.stdout.write(i + " ");
+    }
+} else {
+    for (let i = inicio; i >= fim; i -= incremento) {
+        process.stdout.write(i + " ");
+    }
+}
+console.log("\nAcabou!");
