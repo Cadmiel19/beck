@@ -1,0 +1,13 @@
+// 13. Sorteio de 20 números entre 0 e 10
+let acima5 = 0, divisivel3 = 0;
+
+for (let i = 1; i <= 20; i++) {
+    let num = Math.floor(Math.random() * 11);
+    process.stdout.write(num + " ");
+
+    if (num > 5) acima5++;
+    if (num % 3 === 0) divisivel3++;
+}
+
+console.log("\nAcima de 5:", acima5);
+console.log("Divisíveis por 3:", divisivel3);
