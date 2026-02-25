@@ -46,7 +46,6 @@ rl.question('Digite o primeiro número: ', (num1) => {
         case 'cos':
           resultado = Math.cos(n1,n2);
          break;
-         
     
         default:
           resultado = "Operador inválido!";
